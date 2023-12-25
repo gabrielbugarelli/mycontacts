@@ -16,4 +16,8 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  input {
+    outline: none;
+  }
 `;
