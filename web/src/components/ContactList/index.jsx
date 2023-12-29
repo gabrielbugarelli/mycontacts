@@ -25,7 +25,7 @@ export function ContactList() {
         <Card>
           <div className="info">
             <div className="contact-name">
-              <strong>Gabriel Mendes</strong>
+              <strong>Gabriel F. Mendes</strong>
               <small>Instagram</small>
             </div>
 
@@ -45,7 +45,7 @@ export function ContactList() {
         <Card>
           <div className="info">
             <div className="contact-name">
-              <strong>Gabriel Mendes</strong>
+              <strong>Gabriel F. Mendes</strong>
               <small>Instagram</small>
             </div>
 
