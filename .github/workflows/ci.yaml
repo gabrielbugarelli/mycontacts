@@ -22,7 +22,7 @@ jobs:
         cache: 'yarn'
 
     - name: Install Dependencies
-      run: cd ./web ; yarn install --frozen-lockfile
+      run: cd /web ; yarn install --frozen-lockfile
 
     - name: Ci Lint
       run: yarn lint
