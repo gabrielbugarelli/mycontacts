@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/gabrielbugarelli/mycontacts.git",
+  "author": "gabrielbugarelli <gabrielfonsecaoficial@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "web/", "api/"
+    ]
+  },
+
+  "scripts": {
+    "web": "yarn workspace @mycontacts/web",
+    "web:dev": "yarn web dev"
+  }
+}
