@@ -19,10 +19,10 @@ jobs:
 
       with:
         node-version: '20.x'
-        cache: 'yarn'
+        cache: 'yarn.lock'
 
     - name: Install Dependencies
-      run: cd ./mycontacts/web ; yarn install --frozen-lockfile
+      run: cd ./web ; yarn install --frozen-lockfile
 
     - name: Ci Lint
       run: yarn lint
