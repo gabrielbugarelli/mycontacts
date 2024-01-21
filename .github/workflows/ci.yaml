@@ -1,4 +1,4 @@
-name: mycontacts
+name: mycontacts/web
 
 on:
   push:
