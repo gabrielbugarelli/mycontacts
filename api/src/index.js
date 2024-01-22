@@ -13,5 +13,5 @@ app.use((error, request, response, next) => {
 });
 
 app.listen(3333, () => {
-  console.log('Started on port 3333 🚀 🛸');
+  console.log('Started on port 3333 🚀');
 });
