@@ -12,6 +12,6 @@
   "scripts": {
     "web": "yarn workspace @mycontacts/web",
     "web:lint": "yarn web lint",
-    "web:dev": "yarn web dev"
+    "dev": "yarn web dev"
   }
 }
