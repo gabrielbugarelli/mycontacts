@@ -5,7 +5,7 @@ import defaultTheme from '../../assets/styles/themes/default';
 import { Container } from './styles';
 
 import { Routes } from '../../routes';
-import { Header } from './Header';
+import { Header } from '../Header';
 
 function App() {
   return (
