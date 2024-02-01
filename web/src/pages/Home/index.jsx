@@ -30,46 +30,6 @@ export function Home() {
         <Card>
           <div className="info">
             <div className="contact-name">
-              <strong>Gabriel F. Mendes</strong>
-              <small>Instagram</small>
-            </div>
-
-            <span>gabriel@dev.com</span>
-            <span>(00) 0000-0000</span>
-          </div>
-
-          <div className="actions">
-            <a href="/">
-              <img src={editImage} alt="edit" />
-            </a>
-            <button type="button">
-              <img src={trashImage} alt="delete" />
-            </button>
-          </div>
-        </Card>
-        <Card>
-          <div className="info">
-            <div className="contact-name">
-              <strong>Gabriel F. Mendes</strong>
-              <small>Instagram</small>
-            </div>
-
-            <span>gabriel@dev.com</span>
-            <span>(00) 0000-0000</span>
-          </div>
-
-          <div className="actions">
-            <a href="/">
-              <img src={editImage} alt="edit" />
-            </a>
-            <button type="button">
-              <img src={trashImage} alt="delete" />
-            </button>
-          </div>
-        </Card>
-        <Card>
-          <div className="info">
-            <div className="contact-name">
               <strong>Gabriel Mendes</strong>
               <small>Instagram</small>
             </div>
@@ -79,9 +39,9 @@ export function Home() {
           </div>
 
           <div className="actions">
-            <a href="/">
+            <Link to="/edit/123">
               <img src={editImage} alt="edit" />
-            </a>
+            </Link>
             <button type="button">
               <img src={trashImage} alt="delete" />
             </button>
