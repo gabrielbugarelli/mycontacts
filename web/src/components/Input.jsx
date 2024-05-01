@@ -7,7 +7,7 @@ export default styled.input`
   background-color: #fff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
   height: 52px;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 0 16px;
   font-size: 16px;
   font-family: 'Sora', sans-serif;

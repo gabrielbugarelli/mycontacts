@@ -6,10 +6,12 @@ import {
 import arrowImage from '../../assets/images/icons/arrow.svg';
 import editImage from '../../assets/images/icons/edit.svg';
 import trashImage from '../../assets/images/icons/trash.svg';
+import { Modal } from '../../components/Modal';
 
 export function Home() {
   return (
     <Container>
+      <Modal />
       <InputSearchContainer>
         <input type="text" placeholder="pesquisar contato..." />
       </InputSearchContainer>
